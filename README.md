@@ -2,7 +2,7 @@
 
 一款用于记录宠物日常进食、排便、体重和干粮库存的原生 iPhone App。深色界面，本地离线保存，无账号、无广告、无服务器。
 
-**当前源码版本：v0.7.1。最低支持 iOS 17。**
+**当前版本：v0.7.1。最低支持 iOS 17。**
 
 > 设计者：**emmyhuang**。本项目按 [个人非商业使用许可](LICENSE)公开源码，禁止商用，修改和分享须保留署名。不属于允许商业用途的 OSI 开源许可。
 
@@ -19,7 +19,7 @@
 
 ## 下载与安装
 
-发布后请从本仓库 **Releases** 获取对应版本 IPA、版本说明和 SHA256 校验值。尚无 Release 时，可通过 Actions 自行构建。
+从 [v0.7.1 下载页](https://github.com/missemmy520/miaoji-iphone/releases/tag/v0.7.1) 获取安装包、中文使用说明、中文安装说明与 SHA256 校验文件。
 
 **未签名 IPA 不能直接点击安装。** Windows 用户可用 AltStore Classic 或 Sideloadly 通过自己的 Apple 账号签名；Mac 用户可用 Xcode 直接编译安装。免费签名通常需要每 7 天续签，并非永久免签安装。
 
@@ -60,7 +60,7 @@ bash Scripts/build-iphone.sh
 - `MiaoJi/Assets.xcassets/`：已准备好的 App 图标，不需要额外生成图片即可编译。
 - `Scripts/`：构建、IPA 校验、SwiftData 备注持久化与迁移检查。
 - `.github/workflows/`：手动触发的 macOS 构建工作流。
-- ``：使用、安装与来源核验说明。
+- 文档：使用、安装与来源核验说明。
 - `Distribution/`：本地生成产物，不作为公开源码的一部分。
 
 ## 验证范围
